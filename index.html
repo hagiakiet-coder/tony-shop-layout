@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./base/grid.css">
+    <link rel="stylesheet" href="./base/base.css">
+    <link rel="stylesheet" href="./assets/fontawesome-free-6.0.0-web/fontawesome-free-6.0.0-web/css/all.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+</head>
+<body>
+    <div class="grid wide">
+        <div class="header">
+            <div class="header-top">
+                <div class="header-top-left">
+                    <a href="#" class="logo"><img src="./assets/img/images/logo_03.png" alt=""></a>
+                    <div class="slogan">
+                        <span class="slogan-text">Cần là có</span>
+                        <span class="slogan-text">Giao hàng tận nhà</span>
+                        <span class="slogan-text">Chất lượng và hài lòng</span>
+                    </div>
+                </div>
+                <div class="header-top-center">
+                    <h3 class="title up-case">hãy để chúng tôi phục vụ bạn</h3>
+                    <div class="input">
+                        <div class="input-drop">
+                            <span>Tất cả sản phẩm</span>
+                            <i class="fa-solid fa-caret-down"></i>
+                            <div class="input-drop-container">
+                                <div class="input-drop-item active">Tất cả sản phẩm</div>
+                                <div class="input-drop-item">Lựa chọn 1</div>
+                                <div class="input-drop-item">Lựa chọn 2</div>
+                                <div class="input-drop-item">Lựa chọn 3</div>
+                                <div class="input-drop-item">Lựa chọn 4</div>
+                            </div>
+                        </div>
+                        <input type="text" placeholder="Bạn cần tìm gì ...">
+                        <div class="btn-search flex-center"><img alt="" src="./assets/img/images/icon-search_03.png"/></div>
+                    </div>
+                </div>
+                <div class="header-top-right">
+                    <div class="img-card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <div class="text-card">Giỏ hàng: <span class="count">(08)</span> Sản phẩm</div>
+                    <div class="drop-card">
+                        <ul class="product-list">
+                            <a href="#" class="product-item">
+                                <img src="./assets/img/images/new-product_05.jpg" alt="">
+                                <div class="detail">
+                                    <h3 class="detail-name">Đồ chơi bánh Flan chữ nhật bóp xả stress</h3>
+                                    <span class="detail-price">120.000 đ</span>
+                                </div>
+                                <div class="btn-delete flex-center"><i class="fa-solid fa-trash-can"></i></div>
+                            </a>
+                            <a href="#" class="product-item">
+                                <img src="./assets/img/images/new-product_05.jpg" alt="">
+                                <div class="detail">
+                                    <h3 class="detail-name">Đồ chơi bánh Flan chữ nhật bóp xả stress</h3>
+                                    <span class="detail-price">120.000 đ</span>
+                                </div>
+                                <div class="btn-delete flex-center"><i class="fa-solid fa-trash-can"></i></div>
+                            </a>
+                            <a href="#" class="product-item">
+                                <img src="./assets/img/images/new-product_05.jpg" alt="">
+                                <div class="detail">
+                                    <h3 class="detail-name">Đồ chơi bánh Flan chữ nhật bóp xả stress</h3>
+                                    <span class="detail-price">120.000 đ</span>
+                                </div>
+                                <div class="btn-delete flex-center"><i class="fa-solid fa-trash-can"></i></div>
+                            </a>
+                            <a href="#" class="product-item">
+                                <img src="./assets/img/images/new-product_05.jpg" alt="">
+                                <div class="detail">
+                                    <h3 class="detail-name">Đồ chơi bánh Flan chữ nhật bóp xả stress</h3>
+                                    <span class="detail-price">120.000 đ</span>
+                                </div>
+                                <div class="btn-delete flex-center"><i class="fa-solid fa-trash-can"></i></div>
+                            </a>
+                            <a href="#" class="product-item">
+                                <img src="./assets/img/images/new-product_05.jpg" alt="">
+                                <div class="detail">
+                                    <h3 class="detail-name">Đồ chơi bánh Flan chữ nhật bóp xả stress</h3>
+                                    <span class="detail-price">120.000 đ</span>
+                                </div>
+                                <div class="btn-delete flex-center"><i class="fa-solid fa-trash-can"></i></div>
+                            </a>
+                            <a href="#" class="product-item">
+                                <img src="./assets/img/images/new-product_05.jpg" alt="">
+                                <div class="detail">
+                                    <h3 class="detail-name">Đồ chơi bánh Flan chữ nhật bóp xả stress</h3>
+                                    <span class="detail-price">120.000 đ</span>
+                                </div>
+                                <div class="btn-delete flex-center"><i class="fa-solid fa-trash-can"></i></div>
+                            </a>
+                        </ul>
+                        <div class="total-price">
+                            <div class="text">Tổng cộng: <span class="price-value">240,000 đ</span></div>
+                        </div>
+                        <div class="see-cart">
+                            <div class="see-cart-btn up-case flex-center">xem giỏ hàng</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-menu">
+                <ul class="header-menu-list no-display-mobile-tablet">
+                    <a href="#" class="header-menu-item up-case">trang chủ</a>
+                    <a href="#" class="header-menu-item up-case">giới thiệu</a>
+                    <a href="#" class="header-menu-item up-case">sản phẩm</a>
+                    <a href="#" class="header-menu-item up-case">chính sách</a>
+                    <a href="#" class="header-menu-item up-case">tin tức</a>
+                    <a href="#" class="header-menu-item up-case">khuyến mãi</a>
+                    <a href="#" class="header-menu-item up-case">liên hệ</a>
+                </ul>
+                <div class="header-menu-responsive">
+                    <i class="fa-solid fa-bars icon-menu"></i>
+                    <div class="menu-responsive-model">
+                        <div class="model-item">
+                            <i class="fa-solid fa-xmark btn-close"></i>
+                            <div class="item-logo">
+                                <img alt="" src="./assets/img/images/logo_03.png"/>
+                                <div class="slogan-drop show">Cần là có</div>
+                            </div>
+                            <ul class="item-menu-list">
+                                <a href="#" class="up-case">trang chủ</a>
+                                <a href="#" class="up-case">giới thiệu</a>
+                                <a href="#" class="up-case">sản phẩm</a>
+                                <a href="#" class="up-case">chính sách</a>
+                                <a href="#" class="up-case">tin tức</a>
+                                <a href="#" class="up-case">khuyến mãi</a>
+                                <a href="#" class="up-case">liên hệ</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="tel:555-555-5555" class="header-menu-hotline">
+                    <div class="icon flex-center">
+                        <img alt="" src="./assets/img/images/icon-phone_03.png">
+                        <img alt="" src="./assets/img/images/icon-call_03.png">
+                    </div>
+                    <span>HOTLINE: 0916 489 539</span>
+                </a>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="wrap-top">
+                <div class="row">
+                    <div class="col l-3 m-12 c-12">
+                        <div class="wrap-top-item wrap-category-product">
+                            <h3 class="category-title up-case">danh mục sản phẩm</h3>
+                            <ul class="category-list">
+                                <div class="category-list-item">
+                                    <div class="img flex-center"><img alt="" src="./assets/img/images/category-1_03.png"/></div>
+                                    <span>Dụng cụ học tập</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    
+                                    <div class="drop">
+                                        <a href="#" class="drop-item">Dụng cụ 1</a>
+                                        <a href="#" class="drop-item">Dụng cụ 2</a>
+                                        <a href="#" class="drop-item">Dụng cụ 3</a>
+                                        <a href="#" class="drop-item">Dụng cụ 4</a>
+                                        <a href="#" class="drop-item">Dụng cụ 5</a>
+                                    </div>
+                                </div>
+                                <div class="category-list-item">
+                                    <div class="img flex-center"><img alt="" src="./assets/img/images/category-2_06.png"/></div>
+                                    <span>Trang sức tuổi teen</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    <div class="drop">
+                                        <a href="#" class="drop-item">Trang sức 1</a>
+                                        <a href="#" class="drop-item">Trang sức 2</a>
+                                        <a href="#" class="drop-item">Trang sức 3</a>
+                                        <a href="#" class="drop-item">Trang sức 4</a>
+                                        <a href="#" class="drop-item">Trang sức 5</a>
+                                    </div>
+                                </div>
+                                <div class="category-list-item">
+                                    <div class="img flex-center"><img alt="" src="./assets/img/images/category-3_09.png"/></div>
+                                    <span>Phụ kiện tuổi teen</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    <div class="drop">
+                                        <a href="#" class="drop-item">Phụ kiện 1</a>
+                                        <a href="#" class="drop-item">Phụ kiện 2</a>
+                                        <a href="#" class="drop-item">Phụ kiện 3</a>
+                                        <a href="#" class="drop-item">Phụ kiện 4</a>
+                                        <a href="#" class="drop-item">Phụ kiện 5</a>
+                                    </div>
+                                </div>
+                                <div class="category-list-item">
+                                    <div class="img flex-center"><img alt="" src="./assets/img/images/category-4_03.png"/></div>
+                                    <span>Mỹ phẩm - Dụng cụ trang điểm</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    <div class="drop">
+                                        <a href="#" class="drop-item">Mỹ phẩm 1</a>
+                                        <a href="#" class="drop-item">Mỹ phẩm 2</a>
+                                        <a href="#" class="drop-item">Mỹ phẩm 3</a>
+                                        <a href="#" class="drop-item">Mỹ phẩm 4</a>
+                                        <a href="#" class="drop-item">Mỹ phẩm 5</a>
+                                    </div>
+                                </div>
+                                <div class="category-list-item">
+                                    <div class="img flex-center"><img alt="" src="./assets/img/images/category-5_07.png"/></div>
+                                    <span>Quà tặng</span>
+                                    <i class="fa-solid fa-angle-right"></i>
+                                    <div class="drop">
+                                        <a href="#" class="drop-item">Quà tặng 1</a>
+                                        <a href="#" class="drop-item">Quà tặng 2</a>
+                                        <a href="#" class="drop-item">Quà tặng 3</a>
+                                        <a href="#" class="drop-item">Quà tặng 4</a>
+                                        <a href="#" class="drop-item">Quà tặng 5</a>
+                                    </div>
+                                </div>
+                                <a href="#" class="category-list-item">
+                                    <div class="img flex-center"><img alt="" src="./assets/img/images/category-6_11.png"/></div>
+                                    <span>Đồ dùng tiện ích</span>
+                                </a>
+                                <a href="#" class="category-list-item">
+                                    <div class="img flex-center"><img alt="" src="./assets/img/images/category-7_14.png"/></div>
+                                    <span>Phụ kiện Hi-tech</span>
+                                </a>
+                            </ul>
+                        </div>
+                        <a href="" class="add-product"><img alt="" src="./assets/img/images/uu-dai-tri-an_03.jpg" class="fill"/></a>
+                    </div>
+                    <div class="col l-6 m-12 c-12">
+                        <div class="wrap-top-item wrap-banner-promotion">
+                            <div class="wrap-banner">
+                                <div class="swiper mySwiper fill">
+                                    <div class="swiper-wrapper">
+                                      <a href="" class="swiper-slide"><img class="fill" src="./assets/img/images/banner-1_03.jpg" alt=""></a>
+                                      <a href="" class="swiper-slide"><img class="fill" src="./assets/img/images/banner-1_03.jpg" alt=""></a>
+                                      <a href="" class="swiper-slide"><img class="fill" src="./assets/img/images/banner-1_03.jpg" alt=""></a>
+                                      <a href="" class="swiper-slide"><img class="fill" src="./assets/img/images/banner-1_03.jpg" alt=""></a>
+                                      <a href="" class="swiper-slide"><img class="fill" src="./assets/img/images/banner-1_03.jpg" alt=""></a>
+                                    </div>
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="wrap-promotion">
+                                <div class="wrap-promotion-heading">
+                                    <h3 class="title up-case">sản phẩm đang khuyến mãi</h3>
+                                    <a href="#" class="btn">
+                                        <span class="flex-center">Xem tất cả</span>
+                                        <div class="btn-icon flex-center"><i class="fa-solid fa-angle-right"></i></div>
+                                    </a>
+                                </div>
+                                <div class="wrap-promotion-content">
+                                    <div class="row no-gutters">
+                                        <div class="col l-4 m-12 c-12">
+                                            <a href="#" class="content-item">
+                                                <div class="content-item-img">
+                                                    <img class="fill img-1" src="./assets/img/images/promotion-1_03.jpg" alt="">
+                                                    <img class="fill img-2" src="./assets/img/images/demo-img-2.jpg" alt="">
+                                                </div>
+                                                <span class="content-item-name">Bị mắt nước LEQI GIFT hàng nhập khẩu</span>
+                                                <div class="content-item-price">
+                                                    <div class="price-discount">55.000 đ</div>
+                                                    <div class="price-sell">40.000 đ</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col l-4 m-12 c-12">
+                                            <a href="#" class="content-item">
+                                                <div class="content-item-img">
+                                                    <img class="fill img-1" src="./assets/img/images/promotion-2_05.jpg" alt="">
+                                                    <img class="fill img-2" src="./assets/img/images/demo-img-2.jpg" alt="">
+                                                </div>
+                                                <span class="content-item-name">Bộ cọ trang điểm 7 món Hello Kitty hộp nhựa</span>
+                                                <div class="content-item-price">
+                                                    <div class="price-discount">150.000 đ</div>
+                                                    <div class="price-sell">130.000 đ</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="col l-4 m-12 c-12">
+                                            <a href="#" class="content-item">
+                                                <div class="content-item-img">
+                                                    <img class="fill img-1" src="./assets/img/images/promotion-3_07.jpg" alt="">
+                                                    <img class="fill img-2" src="./assets/img/images/demo-img-2.jpg" alt="">
+                                                </div>
+                                                <span class="content-item-name">Combo túi chéo + Bóp viết cartoon</span>
+                                                <div class="content-item-price">
+                                                    <div class="price-discount">120.000 đ</div>
+                                                    <div class="price-sell">100.000 đ</div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-12 c-12">
+                        <div class="wrap-top-item wrap-hot-product">
+                            <h3 class="hot-title up-case">sản phẩm quan tâm nhiều</h3>
+                            <ul class="hot-list">
+                                <a href="#" class="hot-item">
+                                    <div class="hot-item-img">
+                                        <img src="./assets/img/images/hot-1_03.jpg" class="fill" alt="">
+                                        <div class="img-decor-item img-decor-1"></div>
+                                        <div class="img-decor-item img-decor-2"></div>
+                                        <div class="img-decor-item img-decor-3"></div>
+                                        <div class="img-decor-item img-decor-4"></div>
+                                    </div>
+                                    <div class="hot-item-content">
+                                        <span class="name-product">bông hồng soap 4 bông</span>
+                                        <span class="price-product">40.000 đ</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="hot-item">
+                                    <div class="hot-item-img">
+                                        <div class="img-decor-item img-decor-1"></div>
+                                        <div class="img-decor-item img-decor-2"></div>
+                                        <div class="img-decor-item img-decor-3"></div>
+                                        <div class="img-decor-item img-decor-4"></div>
+                                        <img src="./assets/img/images/hot-2_06.jpg" class="fill" alt=""></div>
+                                    <div class="hot-item-content">
+                                        <span class="name-product">squishy bánh bông lan cuộn</span>
+                                        <span class="price-product">45.000 đ</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="hot-item">
+                                    <div class="hot-item-img">
+                                        <div class="img-decor-item img-decor-1"></div>
+                                        <div class="img-decor-item img-decor-2"></div>
+                                        <div class="img-decor-item img-decor-3"></div>
+                                        <div class="img-decor-item img-decor-4"></div>
+                                        <img src="./assets/img/images/hot-3_08.jpg" class="fill" alt=""></div>
+                                    <div class="hot-item-content">
+                                        <span class="name-product">squishy bánh mặt gấu</span>
+                                        <span class="price-product">32.000 đ</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="hot-item">
+                                    <div class="hot-item-img">
+                                        <div class="img-decor-item img-decor-1"></div>
+                                        <div class="img-decor-item img-decor-2"></div>
+                                        <div class="img-decor-item img-decor-3"></div>
+                                        <div class="img-decor-item img-decor-4"></div>
+                                        <img src="./assets/img/images/hot-4_10.jpg" class="fill" alt=""></div>
+                                    <div class="hot-item-content">
+                                        <span class="name-product">squishy bánh mặt mèo</span>
+                                        <span class="price-product">65.000 đ</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="hot-item">
+                                    <div class="hot-item-img">
+                                        <div class="img-decor-item img-decor-1"></div>
+                                        <div class="img-decor-item img-decor-2"></div>
+                                        <div class="img-decor-item img-decor-3"></div>
+                                        <div class="img-decor-item img-decor-4"></div>
+                                        <img src="./assets/img/images/demo-hot-product-1_12.jpg" class="fill" alt=""></div>
+                                    <div class="hot-item-content">
+                                        <span class="name-product">squishy bánh mì dài</span>
+                                        <span class="price-product">65.000 đ</span>
+                                    </div>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-new-product">
+                <div class="new-product-heading">
+                    <h3 class="title up-case">sản phẩm mới</h3>
+                    <div href="#" class="btn">
+                        <a href="" class="btn-link">
+                            <span class="flex-center">Xem tất cả</span>
+                            <div class="btn-icon flex-center"><i class="fa-solid fa-angle-right"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="new-product-content">
+                    <div class="row">
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/new-product_03.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Đồng hồ kim xoay dây cao su WOKAI</div>
+                                    <div class="price">Giá: 80.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/new-product_05.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Đồ chơi trứng ốp la</div>
+                                    <div class="price">Giá: 20.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/new-product_07.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Đồ chơi trứng biến thái</div>
+                                    <div class="price">Giá: 12.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/new-product_09.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Đồ chơi bánh Flan chữ nhật bóp xả stress</div>
+                                    <div class="price">Giá: 20.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/new-product_11.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Xấp 10 bao lì xì 2017 Việt Nam</div>
+                                    <div class="price">Giá: 25.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/new-product-2_03.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Vòng tay xi đen</div>
+                                    <div class="price">Giá: 20.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/new-product-2_05.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Vòng tay Tì Hưu</div>
+                                    <div class="price">Giá: 20.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/new-product-2_07.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Vòng tay Inox đứt nhiều kiểu</div>
+                                    <div class="price">Giá: 20.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/new-product-2_09.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Vòng tay inox đinh đứt</div>
+                                    <div class="price">Giá: 30.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/new-product-2_11.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Vòng tay inox xoắn nhiều mặt</div>
+                                    <div class="price">Giá: 25.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-highlight-product">
+                <div class="highlight-product-heading">
+                    <h3 class="title up-case">sản phẩm nổi bật</h3>
+                    <div href="#" class="btn">
+                        <a href="" class="btn-link">
+                            <span class="flex-center">Xem tất cả</span>
+                            <div class="btn-icon flex-center"><i class="fa-solid fa-angle-right"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="highlight-product-content">
+                    <div class="row">
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_18.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Đồng hồ dây dù nhiều kiểu</div>
+                                    <div class="price">Giá: 95.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_19.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Đồ chơi báo thức Pokemon 603</div>
+                                    <div class="price">Giá: 72.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_20.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Đồng hồ 2 chuông Totoro 17074</div>
+                                    <div class="price">Giá: 90.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_21.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Đồ chơi Mini Baby 124A</div>
+                                    <div class="price">Giá: 70.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_23.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Đồ cắm bút ngôi nhà gỗ 8500</div>
+                                    <div class="price">Giá: 80.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_29.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Vòng tay Thái xi mạ cao cấp</div>
+                                    <div class="price">Giá: 70.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_30.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Vòng tay Pandora</div>
+                                    <div class="price">Giá: 85.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_31.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Thú bông đủ loại 70k 20~cm</div>
+                                    <div class="price">Giá: 70.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_32.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Bình giữ nhiệt MTUTU 350ml</div>
+                                    <div class="price">Giá: 110.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_33.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Bóp da nam 100001</div>
+                                    <div class="price">Giá: 150.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_40.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Dù Gấu, Thỏ, Vịt</div>
+                                    <div class="price">Giá: 165.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_41.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Máy duỗi tóc mini KeMiEr</div>
+                                    <div class="price">Giá: 120.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_42.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Tai nghe choàng đầu Gấu KN-70S</div>
+                                    <div class="price">Giá: 100.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_43.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Vòng tay titan đứt mặt tròn la mã</div>
+                                    <div class="price">Giá: 265.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col l-2-4 m-3 c-6">
+                            <a href="#" class="content-item">
+                                <div class="content-item-img">
+                                    <img src="./assets/img/images/highlight-product_45.jpg" class="fill" alt="">
+                                    <div class="btn-add-to__card flex-center"><i class="fa-solid fa-cart-shopping"></i></div>
+                                </div>
+                                <div class="content-item-description">
+                                    <div class="name">Nước hoa Good Girl</div>
+                                    <div class="price">Giá: 300.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="wrap-banner-ad">
+                <div class="row">
+                    <div class="col l-3 m-6 c-12">
+                        <div class="banner-item flex-center">
+                            <div class="banner-item-content fill">
+                                <img src="./assets/img/images/icon-ad-banner-1_03.png" alt="">
+                                <div class="text">
+                                    <span class="text-title">đổi trả hàng</span>
+                                    <span class="text-description">chính sách đổi trả hàng</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="banner-item flex-center">
+                            <div class="banner-item-content fill">
+                                <img src="/assets/img/images/icon-shopping_03.png" alt="">
+                                <div class="text">
+                                    <span class="text-title">mua hàng</span>
+                                    <span class="text-description">hướng dẫn mua hàng</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="banner-item flex-center">
+                            <div class="banner-item-content fill">
+                                <img src="/assets/img/images/icon-customer_03.png" alt="">
+                                <div class="text">
+                                    <span class="text-title">khách hàng</span>
+                                    <span class="text-description">chăm sóc khách hàng</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col l-3 m-6 c-12">
+                        <div class="banner-item flex-center">
+                            <div class="banner-item-content fill">
+                                <img src="/assets/img/images/icon-travel_03.png" alt="">
+                                <div class="text">
+                                    <span class="text-title">vận chuyển</span>
+                                    <span class="text-description">chính sách giao hàng</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col l-4 m-4 c-12">
+                        <div class="footer-top-item">
+                            <div class="title up-case">hỗ trợ khách hàng</div>
+                            <a href="#" class="item-link">Hướng dẫn đặt hàng</a>
+                            <a href="#" class="item-link">Hướng dẫn thanh toán</a>
+                            <a href="#" class="item-link">Quy định thành viên</a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="footer-top-item">
+                            <div class="title up-case">chính sách công ty</div>
+                            <a href="#" class="item-link">Chính sách bảo hành</a>
+                            <a href="#" class="item-link">Quy định giao hàng</a>
+                            <a href="#" class="item-link">Quy định và hình thức thanh toán</a>
+                            <a href="#" class="item-link">Chính sách đổi/trả hàng và hoàn tiền</a>
+                        </div>
+                    </div>
+                    <div class="col l-4 m-4 c-12">
+                        <div class="footer-top-item">
+                            <div class="title up-case">thanh toán và giao hàng</div>
+                            <a href="#" class="item-link">Hướng dẫn thanh toán</a>
+                            <a href="#" class="item-link">Chính sách hoàn tiền</a>
+                            <a href="#" class="item-link">Chính sách giao hàng</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-bottom-item">
+                    <h3 class="item-title up-case">liên hệ tony shop</h3>
+                    <span class="item-text">Địa chỉ: Q4 KDC Đông Xuân An, Tp. Phan Thiết, Bình Thuận</span>
+                    <span class="item-text">Điện thoại: (062) 3 700 234 - 0916 489 539</span>
+                    <span class="item-text">Email: tonyshoponline@gmail.com</span>
+                    <span class="item-text">Website: www.tonyshoponline.com</span>
+                </div>
+                <div class="footer-bottom-item cp">
+                    <span class="copyright">@ Copyright 2017. Bản quyền thuộc <span class="copyright-by">Tony Shop</span></span>
+                    <span class="copyright">Thiết kế bởi <span class="copyright-by">Tính Thành</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="btn-back-to-top flex-center"><i class="fa-solid fa-angle-up"></i></div>
+    </div>
+</body>
+
+<script src="./app.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+</script>
+</html>
